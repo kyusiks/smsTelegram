@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_rel_viewMode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_view_nav"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/sty_gradation"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="Nav>"
+        android:textColor="#FFFFFFFF"
+        android:textSize="11dp" />
+
+    <WebView
+        android:id="@+id/web_main"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_weight="1.58"
+        android:scrollbars="horizontal|vertical" />
+
+    <LinearLayout
+        android:id="@+id/ll_menuBottom"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:background="#bbF4F4F4"
+        android:orientation="vertical"
+        android:textColor="#ff000000" >
+
+        <RelativeLayout
+            android:id="@+id/ll_menuBottom_smp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" >
+
+            <LinearLayout
+                android:id="@+id/bottom_pages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal" >
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:background="#bbbbbb" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#bbbbbb" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#bbbbbb" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#bbbbbb" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#bbbbbb" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#bbbbbb" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#bbbbbb" >
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
